@@ -3,6 +3,7 @@ const app =express();
 const port = 8080;
 
 app.use(express.json())
+console.log("hello world!")
 
 app.get("/get_api",(req,res)=>{
     try{
